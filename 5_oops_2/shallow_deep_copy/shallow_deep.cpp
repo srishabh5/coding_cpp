@@ -12,5 +12,6 @@ int main(){
     s2.display();
     //now if i check for student 1 details
     s1.display();
+    // the changes are reflected here as well which should not be the case
     return 0;
 }

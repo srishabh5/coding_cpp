@@ -8,8 +8,9 @@ class student{
     student (int age, char * name){
         this -> age = age;
         //incase of integer there is no problem as the content are copied
+        
         //shallow copy
-        this -> name = name;
+        //this -> name = name;
 
         // but here only the first index is copied so if we make changes in the name array
         //there will be change here as well

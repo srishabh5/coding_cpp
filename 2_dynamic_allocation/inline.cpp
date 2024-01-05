@@ -7,6 +7,7 @@ int max (int a ,int b){
     return (a > b) ? a : b;
 }
 
+
 //option 4
 inline int max_inline (int a ,int b){
     return (a > b) ? a : b;
